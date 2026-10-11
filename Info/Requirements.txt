@@ -1,0 +1,39 @@
+STUDY TRACKER V0.1 — TECHNOLOGY REQUIREMENTS
+
+Goal
+----
+Build a usable desktop web page where a user can enter a study task, click
+"Add Task", and see the task appear in a task list.
+
+Required technologies
+--------------------
+- HTML5: page structure, task-entry form, and task-list area.
+- CSS3: visual styling and a usable desktop layout.
+- Vanilla JavaScript: read the entered task, respond to the Add Task action,
+  and add the task to the page.
+- A modern web browser: run and manually test the application.
+- A code editor: create and edit the project files.
+
+Project files
+-------------
+- index.html — page content and links to the CSS and JavaScript files.
+- styles.css — page layout and visual styles.
+- script.js — task-entry interaction and rendering.
+
+Development tools
+-----------------
+- Git — track changes and save project milestones.
+- A local browser preview or opening index.html directly in a browser — run
+  the app during development. No build step is required.
+
+Not required for V0.1
+---------------------
+- JavaScript frameworks or libraries.
+- Node.js, Express, or a backend server.
+- A database or localStorage.
+- Mobile-responsive styling.
+- Task editing, deleting, completion, categories, filtering, or statistics.
+- Study-session tracking.
+
+Keep the implementation focused on the V0.1 goal. Add later technologies and
+features only when their learning stage begins.

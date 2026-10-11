@@ -1,0 +1,62 @@
+STUDY TRACKER — LEARNING ROADMAP
+
+This is a map, not a blueprint. Use each milestone to choose a useful next
+direction, then work out the details yourself. The order can change as you
+learn, and you do not need to build every idea at once.
+
+1. Find your starting point
+   Look over the project files and decide what the first useful screen needs
+   to show. Keep the first goal small: a desktop page with a place to enter a
+   task and an area where tasks can appear.
+
+2. Shape the page
+   Use HTML for the page's structure, then CSS to make the desktop interface
+   clear and comfortable to use. Focus on the essential parts before polishing.
+
+3. Make adding a task work
+   Use vanilla JavaScript to connect the task entry to the Add Task action.
+   Milestone: entering a task and adding it makes that task visible in the list.
+
+4. Give tasks a useful shape
+   As the list grows, explore representing each task as data and keeping tasks
+   together in an array. Keep the displayed list and its underlying data in
+   agreement.
+
+5. Improve task management
+   Add ways to complete, edit, and delete tasks, one capability at a time.
+   Choose a small behavior, try it, and check that the other task behaviors
+   still make sense.
+
+6. Organize and explore tasks
+   Introduce the DePaul and SDL categories, then offer ways to view all tasks
+   or tasks in one category. Once there is useful data to summarize, explore
+   simple task statistics.
+
+7. Keep tasks between visits
+   When task management is working, learn JSON and browser localStorage so
+   tasks can survive a page refresh. Check what happens when there is no saved
+   data as well as when tasks have been saved.
+
+8. Track study sessions
+   Extend the app toward recording a study session, such as its subject,
+   category, duration, and date. Start with the information that would be most
+   useful to you.
+
+9. Revisit the experience
+   After the desktop version's core behavior is solid, make the layout work
+   well on phones and different screen sizes. Refactor code when repetition or
+   complexity gives you a clear reason to do so; explore JavaScript modules
+   when the project is ready for them.
+
+10. Finish and share V1
+    Test the main paths through the app, tidy up the interface, and deploy the
+    vanilla HTML, CSS, and JavaScript version. Treat completion as a learning
+    milestone before moving on to future technologies.
+
+At every milestone
+------------------
+- Try the next step yourself before looking for a complete solution.
+- When stuck, identify the specific concept you need and learn just that.
+- Test the behavior you changed and check that earlier behavior still works.
+- Save meaningful progress with Git.
+- Keep later frameworks, servers, and databases for a future learning stage.
