@@ -2,7 +2,7 @@
 
 /* Responsive navbar */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .navbar-toggle { /* Show the toggle button on small screens */
         display: flex;
     }
@@ -35,3 +35,14 @@
     }
 }
 
+/* Responsive input container and task input */
+
+@media (max-width: 500px) {
+    .input-container {
+        display: none; /* Hide the input container on small screens */
+    }
+
+    #addTaskButtonMobile {
+        display: flex; /* Show the add task button on small screens */
+    }
+}
