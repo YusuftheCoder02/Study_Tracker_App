@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Tracker</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <!-- Adding icons from fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Study Tracker Content -->
+    <header class="navbar">
+        <a href="#" class="navbar-brand">Study Tracker</a>
+        <button class="navbar-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+        <nav id="nav-links" class="navbar-links" aria-label="Main">
+            <a href="#" aria-current="page">Dashboard</a>
+            <a href="#">Sessions</a>
+            <a href="#">Stats</a>
+        </nav>
+    </header>    
 
+    <script src="app.js"></script>
 </body>
 </html>

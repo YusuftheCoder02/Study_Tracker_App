@@ -1,0 +1,37 @@
+/* Responsive layout for Study Tracker App */
+
+/* Responsive navbar */
+
+@media (max-width: 600px) {
+    .navbar-toggle { /* Show the toggle button on small screens */
+        display: flex;
+    }
+
+    .navbar-links { /* Hide the links by default on small screens */
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: var(--gradient-navbar);
+    }
+
+    .navbar-links.open { /* .open class is added when the toggle button is clicked */
+        display: flex; /* Show the links when the menu is open */
+    }
+
+    .navbar-links a { /* Adjust padding and border for links on small screens */
+        padding: 0.75rem 1.25rem;
+        border-bottom: 0;
+        border-left: 3px solid transparent;
+    }
+
+    .navbar-links a:hover,
+    .navbar-links a:focus-visible,
+    .navbar-links a[aria-current="page"] { /* aria-current="page" is used to highlight the active link */
+        border-left-color: var(--color-accent);
+    }
+}
+
