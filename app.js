@@ -3,3 +3,12 @@
 
 
 
+
+// Responsive navbar: toggle the mobile menu
+const navToggle = document.querySelector('.navbar-toggle');
+const navLinks = document.querySelector('.navbar-links');
+
+navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+});
