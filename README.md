@@ -1,5 +1,7 @@
 # Study Tracker
 
+> **Branch: `ai-prototype`** — This branch is a separate workspace where AI will build a React prototype of Study Tracker. It was created from `Study_Tracker` and is kept apart from my original vanilla JavaScript version, which is developed independently on that branch. Nothing here is merged back unless I decide to. The notes below describe the original project; the React prototype is not started yet.
+
 A personal study-tracking web app and a long-term project for learning JavaScript by building something useful.
 
 ## Project goal
