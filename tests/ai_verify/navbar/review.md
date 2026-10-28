@@ -1,14 +1,14 @@
 # Navbar verification review
 
-Status: Pending
+Status: Pending. No solutions submitted or reviewed; no skills verified. Feature readiness is tracked separately from individual skill checks.
 
-No solutions submitted or reviewed. No skills have been marked verified.
+For each review, record:
 
-For each submitted exercise, record:
-- Exercise and skill IDs
-- Pass/fail against each acceptance criterion
-- Evidence: solution file paths and observed behavior or checks
-- Learning gaps and follow-up exercises, if needed
+- Exercise and type: individual skill check, guided practice, or integration check
+- Target skill ID(s) only; do not infer verification for broad or sibling skills
+- Pass/fail against each target-specific acceptance criterion
+- Evidence: submitted file paths and observed behavior or checks
+- Specific learning gaps and the next suitable practice, if needed
 - Review date
 
-Only add a skill to ../skills.json after the evidence demonstrates a pass.
+Only add a skill to `../skills.json` after evidence demonstrates an independent pass. Solution-level help is guided practice; give a fresh independent exercise before verifying that skill. Individual passes do not establish feature readiness.

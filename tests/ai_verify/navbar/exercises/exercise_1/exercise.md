@@ -1,42 +1,37 @@
-# Exercise 1: Static site header
+# Exercise 1: Color a notice
 
-Skills: css-flexbox-layout
-Difficulty: Introductory
-Feature link: the horizontal bar, brand and link row in the navbar.
-Status: Assigned
+**Goal:** Give a small notice box a pale yellow background.
 
-## Scenario
+**Type:** Individual skill check
 
-You are building the header for a recipe website called "Recipe Box". It has a brand name on the left and four links on the right (Home, Recipes, Shopping List, About). No JavaScript and no React.
+**Target skill:** `css-background-color`
+
+**Verified skills:** None. No skills are listed in `skills.json`, so AI has not automated any previously unverified skills.
+
+**Unverified prerequisites:** None. The page structure, selector, and other styling are provided infrastructure; they are not being assessed.
+
+## What AI supplied
+
+AI supplied a complete small page and a CSS rule for the notice. The notice currently has no background color.
 
 ## Task
 
-Write plain HTML and CSS for the header.
+Edit only `styles.css` so the notice has a pale yellow background.
 
 ## Acceptance criteria
 
-- The header is exactly 64px tall in the browser's computed layout, regardless of padding.
-- The brand is at the left edge and the links are at the right edge, all vertically centered in the header.
-- The links are a real list of links inside a navigation landmark. No bullets and no default list margins or padding are visible.
-- Hovering a link and keyboard-focusing it each produce a visibly different style.
-- At 1024px wide there is no horizontal scrollbar.
-- The page declares a viewport suitable for mobile devices.
+- When you open `index.html`, the notice area has a pale yellow background.
 
-## Skills and knowledge needed
+This exercise checks only the background color of one element. You do not need to change the page structure, spacing, layout, or text.
 
-- Semantic HTML: header, nav, ul, li, a
-- Flexbox: direction, alignment on both axes, space distribution
-- The box model and how sizing interacts with padding
-- Resetting default list styles
-- Pseudo-classes for hover and keyboard focus
-- Viewport meta tag
-- Inspecting computed sizes in browser dev tools
+## Provided infrastructure
 
-## Explain in notes.md
+The HTML page and the existing CSS selector are provided so you can focus on one small style change. They do not verify HTML or selector skills.
 
-1. Why did you choose the elements you used for the link list?
-2. What decides whether the header's height is exactly what you specified?
+## Run and submit
 
-## Submission
+Open `index.html` in a browser. Edit only `styles.css`, then submit that file. No tools or setup are required.
 
-Work directly in this folder (`exercise_1/`). Use the blank files provided, add your own, and put your written answers in `notes.md` here. Choose your own structure. No starter code is supplied. The `solutions/` folder is for AI reference answers, which are only provided after you complete the exercise yourself.
+## Explain
+
+In one short sentence, which part of the notice did your change affect?

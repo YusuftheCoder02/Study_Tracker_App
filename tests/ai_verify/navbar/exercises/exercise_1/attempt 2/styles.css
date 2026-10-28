@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+}
+
+.notice {
+  padding: 12px;
+  background-color: #fff9c4;
+  border: 1px solid #777;
+}

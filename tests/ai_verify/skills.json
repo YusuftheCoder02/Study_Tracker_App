@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "verifiedSkills": []
+  "verifiedSkills": [
+    {
+      "id": "css-background-color",
+      "name": "Apply a CSS background color to an element",
+      "verifiedAt": "2026-10-27",
+      "evidence": "navbar/solutions/exercise_1/review/attempt2.md",
+      "category": "CSS"
+    }
+  ]
 }

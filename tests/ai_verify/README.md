@@ -18,12 +18,20 @@ This workspace exists to verify that I can independently apply the programming s
 - Challenges must test transferable knowledge.
 - Challenges should not simply reproduce the original feature.
 - Challenge difficulty should reflect the skills being verified.
+- Break broad abilities into small, observable skills with stable IDs. Assign one new target skill per exercise by default; combine targets only when that combination is itself the learning objective.
+- Assume a complete beginner unless the records show otherwise. Start with a tiny, low-setup task and increase difficulty gradually.
+- Assign one exercise at a time. Before preparing it, check `skills.json` and previous reviews. AI may automate a skill only when both an independent passing review and a matching `skills.json` record exist. A prior assignment, exposure, or supplied starter implementation is not verification. Leave the target skill for the user, and remove or teach unverified prerequisites instead of silently relying on them.
+- Provide neutral setup as labeled infrastructure. It does not count as verification of the skills used to create it.
+- Keep a large exercise bank as a flexible outline, not as prebuilt assignments. After a pass, offer the next appropriate unverified skill; if the user struggles, offer a smaller practice exercise for that gap. Provide fresh independent work after solution-level help before verifying a skill.
+- Use occasional, separately labeled integration exercises after their component skills have been verified. Track feature readiness separately from individual skill passes.
 
 ### 3. Solve Independently
 - Complete challenges without referencing AI-generated implementations.
 - Do not use tutorials, hints, or solutions during verification.
 - Write the code independently.
 - AI may clarify challenge requirements without revealing solutions.
+- Re-practising a verified skill is optional; do not repeatedly require it.
+- The user may request guided practice instead of verification; label it clearly and do not record a skill as verified from solution-level help.
 
 ### 4. Evaluate
 - AI reviews the submitted solutions.
@@ -32,9 +40,9 @@ This workspace exists to verify that I can independently apply the programming s
 - Failed challenges indicate learning gaps, not personal failure.
 
 ### 5. Approve
-- Once the required skills are demonstrated, mark the verification as passed.
-- The corresponding AI-generated feature becomes eligible for integration into `main`.
-- Verified features must still undergo code review and testing.
+- Add an individual skill to `skills.json` only after it has an independent passing review.
+- Track the original feature's readiness separately. Individual skill passes alone do not make a feature eligible for integration.
+- The original feature still needs code review and testing before integration into `main`.
 
 ## Rules
 
@@ -57,6 +65,9 @@ Each verification should document:
 - **Results:** Pass or fail for each challenge.
 - **Learning Gaps:** Skills requiring improvement.
 - **Status:** Pending, In Progress, Passed, or Needs Review.
+- **Exercise type:** Individual skill check, guided practice, or integration check.
+
+Guided practice and solution-level help do not verify a skill. After solution-level help, use a fresh independent exercise for verification.
 
 ## Core Principle
 
