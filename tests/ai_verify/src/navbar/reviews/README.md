@@ -1,0 +1,1 @@
+Create one review file per submitted attempt. Record whether each requirement in `brief.md` passed, cite evidence from the submitted files or browser behavior, and note specific gaps. Only record skills demonstrated independently. If solution-level help was given, classify the work as guided practice and require a fresh attempt for independent verification.

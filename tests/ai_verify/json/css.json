@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "technology": "CSS",
+  "proficiency": "Beginner",
+  "proficiencyNote": "CSS foundations",
+  "verifiedSkills": [
+    {
+      "id": "css-class-selector-targeting",
+      "name": "Select elements with type, class, ID, and hover or active selectors",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/css/style.css, about.css, projects.css, resume.css, skill.css; navbar/solutions/exercise_2/review/attempt1.md"
+    },
+    {
+      "id": "css-background-color",
+      "name": "Style text and element backgrounds with colors and CSS custom properties",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/css/style.css, about.css, projects.css, resume.css, skill.css; navbar/solutions/exercise_1/review/attempt2.md"
+    },
+    {
+      "id": "css-typography",
+      "name": "Style text with font families, sizes, weights, spacing, alignment, and decoration",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/css/style.css, about.css, projects.css, resume.css, skill.css"
+    },
+    {
+      "id": "css-box-model",
+      "name": "Set basic element sizes, spacing, borders, rounded corners, and shadows",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/css/style.css, about.css, projects.css, resume.css, skill.css"
+    }
+  ]
+}

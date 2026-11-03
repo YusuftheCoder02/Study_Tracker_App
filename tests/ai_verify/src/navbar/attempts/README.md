@@ -1,0 +1,1 @@
+Keep each attempt as a separate, unchanged submission. Start by copying all files from `starter/` into a new folder (for example, `attempt-1/`) and implement the brief there. Never overwrite an earlier attempt. Each attempt folder also contains an `origin/` folder with an unchanged copy of the starter; never edit it.

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "technology": "HTML",
+  "proficiency": "Beginner",
+  "proficiencyNote": "Strong basics",
+  "verifiedSkills": [
+    {
+      "id": "html-document-foundations",
+      "name": "Build complete HTML documents with language, metadata, titles, and stylesheet links",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/index.html; about.html; skills.html; projects.html; resume.html"
+    },
+    {
+      "id": "html-semantic-content-structure",
+      "name": "Organize page content with semantic landmarks, heading hierarchy, lists, and grouped elements",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/index.html; about.html; skills.html; projects.html; resume.html"
+    },
+    {
+      "id": "html-content-formatting",
+      "name": "Present readable text with headings, paragraphs, line breaks, comments, and character entities",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/index.html; about.html; skills.html; projects.html; resume.html"
+    },
+    {
+      "id": "html-navigation-and-links",
+      "name": "Create site navigation and internal, external, email, download, and new-tab links",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/index.html; about.html; skills.html; projects.html; resume.html"
+    },
+    {
+      "id": "html-accessible-media-and-icons",
+      "name": "Add images with alternative text and label icon links for assistive technology",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/index.html; about.html; skills.html; projects.html; resume.html"
+    },
+    {
+      "id": "html-multipage-site-structure",
+      "name": "Structure a multi-page site with consistent navigation, footers, and page-specific styles",
+      "verifiedAt": "2026-11-02",
+      "evidence": "Portfolio-Website/index.html; about.html; skills.html; projects.html; resume.html"
+    }
+  ]
+}
